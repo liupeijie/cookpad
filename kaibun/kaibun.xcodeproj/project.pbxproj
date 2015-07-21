@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B6F52551B5E336A00BF9899 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F52541B5E336A00BF9899 /* main.c */; };
 		8B6F525D1B5E33AD00BF9899 /* kaibun.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F525B1B5E33AD00BF9899 /* kaibun.c */; };
+		8B6F52631B5E3A6100BF9899 /* coins.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F52611B5E3A6100BF9899 /* coins.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		8B6F52541B5E336A00BF9899 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8B6F525B1B5E33AD00BF9899 /* kaibun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kaibun.c; sourceTree = "<group>"; };
 		8B6F525C1B5E33AD00BF9899 /* kaibun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaibun.h; sourceTree = "<group>"; };
+		8B6F52611B5E3A6100BF9899 /* coins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coins.c; sourceTree = "<group>"; };
+		8B6F52621B5E3A6100BF9899 /* coins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coins.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				8B6F52541B5E336A00BF9899 /* main.c */,
 				8B6F525B1B5E33AD00BF9899 /* kaibun.c */,
+				8B6F52611B5E3A6100BF9899 /* coins.c */,
+				8B6F52621B5E3A6100BF9899 /* coins.h */,
 				8B6F525C1B5E33AD00BF9899 /* kaibun.h */,
 			);
 			path = kaibun;
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6F52631B5E3A6100BF9899 /* coins.c in Sources */,
 				8B6F52551B5E336A00BF9899 /* main.c in Sources */,
 				8B6F525D1B5E33AD00BF9899 /* kaibun.c in Sources */,
 			);
